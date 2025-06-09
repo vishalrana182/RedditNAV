@@ -1,0 +1,20 @@
+{
+    "name": "RedditNAV",
+    "description": "Enable arrow keys to view image slides in Reddit.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_icon": "./icon/ic.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.reddit.com/*"
+            ],
+            "js": [
+                "script.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}
