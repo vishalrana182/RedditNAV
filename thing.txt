@@ -1,5 +1,0 @@
-<body class = "rpl-scroll-lock"
-<shreddit-app class="overflow-visible pt-[var(--page-y-padding)] "
-<div id="shreddit-media-lightbox"
-<div data-testid = "lightbox-template" class = "relative h-full w-full">
- 
