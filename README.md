@@ -1,7 +1,7 @@
 # RedditNAV
 enable arrow keys to view reddit image slides.
 
-# how to install
+# how to install and use
 1. download the source code.
 2. enable developer mode in chrome in "chrome://extensions"
 3. load unpacked
