@@ -12,7 +12,7 @@
                 "*://*.reddit.com/*"
             ],
             "js": [
-                "script.js"
+                "./script.js"
             ],
             "run_at": "document_idle"
         }
