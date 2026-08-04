@@ -10,8 +10,8 @@ function func(label) {
     return btn;
 }
 
-document.addEventListener("keydown", function(k) {
-    // Ignore key presses if user is typing in an input field or comment box
+document.addEventListener("keydown", function (k) {
+    // Ignore key presses
     const active = document.activeElement;
     if (active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA' || active.isContentEditable)) {
         return;
@@ -37,5 +37,5 @@ document.addEventListener("keydown", function(k) {
             prevBtn.click();
         }
     }
-}, true); // Use capture phase to intercept the event before Reddit processes it natively
+}, true);
 
